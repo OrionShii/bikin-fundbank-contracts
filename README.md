@@ -18,7 +18,7 @@ A simple Ethereum smart contract project for securely depositing and withdrawing
 
 - [Solidity ^0.8.25](https://soliditylang.org/)
 - [Foundry](https://book.getfoundry.sh/) (cast, forge)
-- Local Anvil / Hardhat for RPC testing
+- Local Anvil for RPC testing
 
 ---
 
