@@ -1,3 +1,34 @@
+# 🏦 FundBank Contracts
+
+A simple Ethereum smart contract project for securely depositing and withdrawing Ether. Built for educational and prototype-level use in Web3 environments.
+
+---
+
+## 🚀 Features
+
+- 🔐 **Deposit Ether** with strict value checks
+- 💸 **Withdraw Ether** with safe transfer logic
+- 📊 **Check Balances** per user
+- ⚠️ Custom errors for clean & efficient error handling
+- 📢 Emits events for deposits and withdrawals
+
+---
+
+## 🛠️ Stack
+
+- [Solidity ^0.8.25](https://soliditylang.org/)
+- [Foundry](https://book.getfoundry.sh/) (cast, forge)
+- Local Anvil / Hardhat for RPC testing
+
+---
+
+## 📁 Contract Overview
+
+```solidity
+function deposit(uint256 amount) public payable;
+function withdraw(uint256 amount) public;
+function checkBalance(address user) public view returns (uint256);
+```
 ## Foundry
 
 **Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
@@ -64,4 +95,3 @@ $ forge --help
 $ anvil --help
 $ cast --help
 ```
-# bikin-fundbank-contracts
